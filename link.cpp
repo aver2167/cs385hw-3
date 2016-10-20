@@ -3,6 +3,8 @@
  *  Class for a sorted linked list of integers.
  */
 
+//Lydia E. Edits
+
 #ifdef NOT_USING_CC_WHATEVER_ITS_PREDEF_IS
 #include <bool.h>
 #endif

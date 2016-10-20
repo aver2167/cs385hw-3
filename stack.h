@@ -3,6 +3,8 @@
  * Definition of Stack class
  */
 
+//Lydia E. edits
+
 #ifndef STACK_H
 #define STACK_H
 

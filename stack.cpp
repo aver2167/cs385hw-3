@@ -3,6 +3,8 @@
  *  Definition of Stack class member functions.
  */
 
+//Lydia E. edits
+
 #include <iostream.h>
 #include <assert.h>
 #include "stack.h"

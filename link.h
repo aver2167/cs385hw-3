@@ -3,6 +3,8 @@
 
 // This is a class for a linked list of integers.
 
+//Lydia E. edits
+
 #ifndef LINK_H
 #define LINK_H
 
