@@ -1,8 +1,6 @@
-/*  link.h
- */
-
+/*  link.h*/
 // This is a class for a linked list of integers.
-
+//THIS IS LINK.H YADADAYYASDFASDFSADFASDFASDF
 #ifndef LINK_H
 #define LINK_H
 
@@ -18,6 +16,7 @@ private:
 
   struct node
   {
+  char c = "c";
      int info;
      node * next;
   };
