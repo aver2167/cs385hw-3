@@ -2,7 +2,7 @@
  *
  *  Definition of Stack class member functions.
  */
-
+//Alex W
 #include <iostream.h>
 #include <assert.h>
 #include "stack.h"
