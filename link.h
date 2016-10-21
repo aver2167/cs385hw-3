@@ -1,10 +1,11 @@
 /*  link.h*/
 // This is a class for a linked list of integers.
-//THIS IS LINK.H YADADAYYASDFASDFSADFASDFASDF
+//THIS IS A CONFLICTING MERGE ASDF
 #ifndef LINK_H
 #define LINK_H
 
 #ifdef NOT_USING_CC_WHATEVER_ITS_PREDEF_IS
+
 #include <bool.h>
 #endif
 #include <iostream.h>
