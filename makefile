@@ -1,3 +1,7 @@
+# Makefile for HW 3
+# Hannah Pearson
+# 10/20/16
+
 main: main.cpp stack.o link.o
 	g++ -o main main.cpp stack.o link.o
 
