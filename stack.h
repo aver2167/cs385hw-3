@@ -6,9 +6,10 @@
 #ifndef STACK_H
 #define STACK_H
 
-#include <iostream.h>
+#include <iostream>
 #include <assert.h>
 #include "link.h"
+using namespace std;
 
 
 class Stack {

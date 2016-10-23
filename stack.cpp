@@ -3,9 +3,10 @@
  *  Definition of Stack class member functions.
  */
 
-#include <iostream.h>
+#include <iostream>
 #include <assert.h>
 #include "stack.h"
+using namespace std;
 
 
 Stack::Stack()

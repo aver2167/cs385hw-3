@@ -7,7 +7,8 @@
 #ifdef NOT_USING_CC_WHATEVER_ITS_PREDEF_IS
 #include <bool.h>
 #endif
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
 
 class LinkedList
@@ -16,7 +17,8 @@ private:
 
   struct node
   {
-  char c = "c";
+	 char c;
+	//c = "c";
      int info;
      node * next;
   };
