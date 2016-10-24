@@ -22,6 +22,7 @@ int main()
 				int value;
 				cout << "Enter a number to insert: ";
 				cin >> value;
+				
 				s.Push(value);
 				break;
 			}
@@ -31,8 +32,12 @@ int main()
 				break;
 			}
 			case 3:
-				cout << "The stack contains:\n";
-				 s.Print();
+				if(s.IsEmpty()){
+					cout << "The stack is empty.\n\n";
+				} else {
+				 	cout << "The stack contains:\n";
+					s.Print();
+				}
 				 break;
 			case 4:
 				return 0;
