@@ -1,0 +1,7 @@
+#########################################
+# Ignore the files produced by makefile #
+# Dustin Fox				24 Oct 2016 #
+#########################################
+
+*.o
+main
