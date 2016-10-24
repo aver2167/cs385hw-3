@@ -18,7 +18,7 @@ public:
    ~Stack();
 
    void Push(int n);     // push item onto stack
-   int Pop();            // remove item from stack
+   int Pop();            // remove item from stack if the stack is empty, returns 0;
    int IsEmpty();        // is the stack empty?
    void Print();         // print the stack
 
