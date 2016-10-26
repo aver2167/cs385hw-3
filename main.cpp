@@ -5,7 +5,6 @@ using namespace std;
 
 /*Colton Hotchkiss
 *  Main adapted from http://proprogramming.org/c-program-to-implement-stack-using-linked-list/
-Alex Wezensky
 */
 int main()
 {
