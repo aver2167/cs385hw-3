@@ -1,7 +1,7 @@
 /*  stack.cpp
  *
  *  Definition of Stack class member functions.
- */
+*/
 
 #include <iostream>
 #include "stack.h"
@@ -22,13 +22,13 @@ Stack::~Stack()
    }
 }
 
-void Stack::Push(int n)
+void Stack::Push(char n)
 {
    topPtr.AddNode( n );
 }
 
 
-int Stack::Pop()
+char Stack::Pop()
 {
     if(!IsEmpty()){
         int  n = topPtr.FirstNode();
@@ -42,7 +42,7 @@ int Stack::Pop()
 
 int Stack::IsEmpty()
 {
-    int n = topPtr.Size();
+    char n = topPtr.Size();
     return (n == 0);
 }
 

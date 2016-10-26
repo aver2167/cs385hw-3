@@ -13,7 +13,7 @@ using namespace std;
 
 
 //  Add an item to the FRONT of the list
-void LinkedList::AddNode(int x)
+void LinkedList::AddNode(char x)
 {
 	nodeptr n;
 
@@ -37,7 +37,7 @@ void LinkedList::AddNode(int x)
 
 //\end{verbatim}  \lecpb  \begin{verbatim}
 
-void LinkedList::DeleteNode(int x)
+void LinkedList::DeleteNode(char x)
 {
 	nodeptr prev, curr;
 
@@ -83,9 +83,9 @@ void LinkedList::PrintNodes()
 
 //\end{verbatim}  \lecpb  \begin{verbatim}
 #ifdef NOT_USING_CC_WHATEVER_ITS_PREDEF_IS
-bool LinkedList::IsInList(int x)
+bool LinkedList::IsInList(char x)
 #else
-int LinkedList::IsInList(int x)
+int LinkedList::IsInList(char x)
 #endif
 {
 	nodeptr p = start;
