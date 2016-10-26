@@ -30,8 +30,12 @@ int main()
 			}
 			case 2:
 			{
-				if(!s.Pop()){
+				int pop = s.Pop();
+				if(!pop){
 					cout << "The stack is already empty, nothing to pop.\n";
+				}
+				else {
+					cout << "Popped: " << pop << endl;
 				}
 				break;
 			}
