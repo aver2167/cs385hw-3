@@ -2,10 +2,10 @@
  *
  *  Definition of Stack class member functions.
  */
-//Lydia E edit
-#include <iostream.h>
-#include <assert.h>
+
+#include <iostream>
 #include "stack.h"
+using namespace std;
 
 
 Stack::Stack()
@@ -22,8 +22,6 @@ Stack::~Stack()
    }
 }
 
-//\end{verbatim}  \lecpb  \begin{verbatim}
-
 void Stack::Push(int n)
 {
    topPtr.AddNode( n );
@@ -32,14 +30,15 @@ void Stack::Push(int n)
 
 int Stack::Pop()
 {
-   assert(!IsEmpty());
-
-   int  n = topPtr.FirstNode();
-   topPtr.DeleteNode( n );
-   return n;
+    if(!IsEmpty()){
+        int  n = topPtr.FirstNode();
+        topPtr.DeleteNode( n );
+        return n;
+    } else {
+        return 0;
+    }
 }
 
-//\end{verbatim}  \lecpb  \begin{verbatim}
 
 int Stack::IsEmpty()
 {
