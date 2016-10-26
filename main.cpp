@@ -12,7 +12,7 @@ int main()
   string to_reverse;
   int i;
   
-  puts("Enter string to reverse \n");
+  puts("Enter string (no spaces) to reverse: \n");
   cin >> to_reverse;
 
   for(i=0;i<=to_reverse.length();i++)
@@ -23,4 +23,6 @@ int main()
   {
     cout << s.Pop();
   }
+  
+  cout << "\n";
 }
