@@ -57,11 +57,11 @@ public:
 
     // Add a node onto the front of the linked list.
 
-   void AddNode(int x);
+   void AddNode(char x);
 
     // Delete the first node found with the value x, if one exists.
 
-   void DeleteNode(int x);
+   void DeleteNode(char x);
 
     // Return the first node found in the list
 
@@ -73,8 +73,8 @@ public:
 
     // Return true if there in a node in the list with the value x.
 
-   //bool IsInList(int x);
-   int IsInList(int x);
+   //bool IsInList(char x);
+   int IsInList(char x);
 
     // Return a count of the number of nodes in the list.
 
